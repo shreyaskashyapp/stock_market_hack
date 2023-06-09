@@ -1,0 +1,45 @@
+.results {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.player-score,
+.bot-score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info {
+  margin-bottom: 20px;
+}
+
+.result1,
+.result2 {
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 16px;
+  margin: 0;
+}
+
+p {
+  margin: 5px 0;
+}
+
+.green{
+  background: green;
+}
+
+.red{
+  background: red;
+}

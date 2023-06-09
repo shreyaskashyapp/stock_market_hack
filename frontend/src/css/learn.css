@@ -1,0 +1,30 @@
+.videos {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.videos iframe {
+  width: 300px;
+  height: 200px;
+  transition: transform 0.2s;
+  border: 2px solid #333;
+  border-radius: 4px;
+}
+
+.videos iframe:hover {
+  transform: scale(1.2);
+  border: 2px solid #333;
+  border-radius: 4px;
+}
+
+.intro,
+.learner,
+.quizbutt {
+  margin: 10px;
+
+}
+
+h1{
+    margin-top: 1%;
+}
